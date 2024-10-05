@@ -580,9 +580,13 @@ textarea {
     width: 100%;
     padding: 1rem;
     margin: 8px 0;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    outline-color: #fd57bf;
+    /* outline-color: #fd57bf; */
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: var(--Patua);
 }
 
 
@@ -590,7 +594,8 @@ textarea {
     color: #221e3f;
 } */
 
-input[type="submit"] {
+.submit {
+    margin-top: 2rem;
     width: initial;
     font-weight: bold;
     color: whitesmoke;
@@ -601,7 +606,7 @@ input[type="submit"] {
     transition: background-color 650ms;
 }
 
-input[type="submit"]:hover {
+.submit :hover {
     color: #221e3f;
     font-weight: bold;
     background-color: #ffe838;
